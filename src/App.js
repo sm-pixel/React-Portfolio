@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import Home from "./components"
 
 function App() {
   return (
-    <h2>Welcome to the App component</h2>
+    <>
+    <Home/>
+  </>
   )
-}
+  }
 
 export default App;
